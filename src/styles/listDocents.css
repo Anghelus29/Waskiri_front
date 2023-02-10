@@ -1,0 +1,46 @@
+.container-d {
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 10%;
+    display: grid;
+    align-items: center;
+    background: var(--var5);
+    border: 2px solid var(--var3);
+}
+
+.accion {
+    display: flex;
+    background: var(--var4);
+    height: 60px;
+}
+
+.lista {
+    background: var(--var5);
+    width: 100%;
+    height: 600px;
+}
+
+.input-teacher {
+    height: 24px;
+}
+
+.icon-d {
+    height: 2rem;
+    /* para cambiar el color del icono en trar a la pagna css filter generatos y generar el color con el codigo hexadecimal*/
+    /* filter: invert(99%) sepia(85%) saturate(0%) hue-rotate(311deg) brightness(104%) contrast(101%); */
+}
+
+.accion li{
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    display: inline-block;
+    color: var(--var1);
+    font-weight: bolder;
+    font-size: var(--md);
+}
+.accion select{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 200px;
+    height: 30px;
+}

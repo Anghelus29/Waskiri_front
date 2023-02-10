@@ -1,0 +1,44 @@
+.containerHorarios {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--var2);
+}
+
+.containerHorarios {
+    padding: 1rem;
+}
+
+.forDays {
+    background-color: bisque;
+    margin: 2px;
+}
+
+.forPeriods {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    height: 50px;
+    background-color: var(--var5);
+    border: 1px solid var(--var2);
+    margin-top: 5px;
+    margin-right: 5px;
+    color: var(--var2);
+}
+.day {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: var(--var2);
+}
+
+.matter {
+    width: 130px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: var(--var2);
+    background-color: rgba(141, 224, 93, 0.767);
+}

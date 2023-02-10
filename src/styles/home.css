@@ -1,0 +1,9 @@
+.Home {
+    display: grid;
+	place-items: center;
+}
+
+.home-logo {
+    width: 200px;
+    height: 100px;
+}

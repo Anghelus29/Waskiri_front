@@ -1,0 +1,14 @@
+:root {
+    --black: rgb(0, 0, 0);
+    --white: rgb(255, 255, 255);
+
+    --var1: #003249;
+    --var2: #007ea7;
+    --var3: #80ced7;
+    --var4: #9ad1d4;
+    --var5: #ccdbdc;
+
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}

@@ -1,0 +1,32 @@
+.container-asistencia {
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 10%;
+    display: grid;
+    text-align: center;
+    background: var(--var2);
+    border: 2px solid var(--var3);
+}
+.header-asistencia {
+    display: flex;
+    margin: 1rem;
+    font-size: var(--lg);
+    padding-right: 1rem;
+    margin-right: 1rem;
+    align-items: center;
+}
+#select-val {
+    width: 100px;
+    height: 26px;
+}
+.select-fech {
+    height: 26px;
+}
+.lista-asistencia {
+    background-color: var(--var5);
+    padding: 0px 20px 10px;
+    text-align: left;
+}
+.student-asistencia {
+    display: flex;
+}

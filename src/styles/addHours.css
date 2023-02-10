@@ -1,0 +1,65 @@
+ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    padding: 10px;
+    border: 1px solid var(--var2);
+}
+.column-h {
+    display: block;
+    padding: 5px;
+}
+.header-h {
+    color: var(--var2);
+}
+.materia-h {
+    background-color: var(--var5);
+    border: 1px solid var(--var2);
+    margin-top: 5px;
+    color: var(--var2);
+}
+.container-h {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.contenedor div{
+    display: block;
+}
+.title-h{
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 15px;
+    color: var(--var1);
+}
+.accion-h{
+    background: var(--var5);
+    border: 1px solid var(--var2);
+    border-radius: 8px;
+    padding: 1rem;
+    display: block;
+}
+.accion-h li{
+    color: var(--var2);
+    font-size: var(--md);
+    display: block;
+}
+.horario-h {
+    padding: 1rem;
+}
+.regis-button,
+.modif-button {
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 5px;
+}
+.select-h {
+    width: 100%;
+    height: 25px;
+    color: var(--var2);
+    border-color: var(--var2);
+}
