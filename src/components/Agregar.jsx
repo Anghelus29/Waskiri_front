@@ -19,6 +19,10 @@ const Agregar = () => {
                 </li>
 
                 <li>
+                    <NavLink to="/registrarDocenteMateria" className='nav-b'>Docente Materia</NavLink>
+                </li>
+
+                <li>
                     <NavLink to="/" className='nav-b'>Nuevo Periodo</NavLink>
                 </li>
             </ul>

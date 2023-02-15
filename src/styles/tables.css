@@ -9,7 +9,7 @@ select{
 table{
     background: var(--white);
     text-align: center;
-    width: 560px;
+    width: 800px;
     border-collapse: collapse;
 }
 th, td{

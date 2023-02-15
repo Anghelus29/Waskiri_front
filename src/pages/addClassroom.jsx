@@ -1,7 +1,8 @@
+import React, {useState} from 'react'
 import '../styles/modal.css';
 import '../styles/tables.css';
 import apiObject from '../api/crudClassroom';
-import React, {useState} from 'react'
+//import 'bootstrap/dist/css/bootstrap.min.css';
 //import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 //import {faEdit, faTrashAlt, faCirclePlus} from '@fortawesome/free-solid-svg-icons';
 import {Modal,ModalBody,ModalFooter,ModalHeader} from 'reactstrap';
@@ -49,7 +50,7 @@ function RegistrarCurso (){
     showDenyButton: true
   }).then(response=>{
     if(response.isConfirmed){
-        if(value1==''||value2==''||value3==''){
+        if(value1=='-1'||value2=='-1'||value3=='-1'){
             Swal.fire("Atencion","Por favor seleccione Todos los datos", 'warning')
         }else{
             peticionPostCursoParalelo();
@@ -80,7 +81,7 @@ function RegistrarCurso (){
                     <br />
                     <button className="btn-success" onClick={()=>abrirModalInsertar()}>Agregar Curso</button>     
                     <br />
-                    <table>
+                    <table className='table table--bordered'>
                         <thead>
                         <tr>
                             <th>Curso</th>
@@ -150,8 +151,3 @@ function RegistrarCurso (){
         );
     }
 export default RegistrarCurso;
-
-  
-
-
- 

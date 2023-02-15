@@ -75,19 +75,6 @@ const useCursoParalelo = (apiCursoParalelo) => {
   return cursoParalelo;
 };
 
-const useMateria = (apiMateria) => {
-
-  const [materia, setMateria] = useState([]);
-
-  useEffect(() => {
-      const getMateria = async () => {
-          const response = await api.get(apiMateria);
-          setMateria(response.data);
-      };
-      getMateria();
-  }, [apiMateria]);
-  return materia;
-};
 
 const apiObject = {
   postCurso,
@@ -96,9 +83,7 @@ const apiObject = {
   useNivel,
   useCursoParalelo,
   useParalelo,
-  useCurso,
-  postMateria,
-  useMateria
+  useCurso
 }
 
 export default apiObject;

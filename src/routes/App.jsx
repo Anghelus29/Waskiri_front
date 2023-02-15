@@ -24,6 +24,7 @@ import Asistencia from '../pages/Asistencia';
 import Message from '../pages/Message';
 import Horarios from '../pages/Horarios';
 import AddClassroom from '../pages/addClassroom';
+import AddDocentSubject from '../pages/addDocentSubject';
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
               <Route path='/registrarDocente' element={<AuthRoute><AddDocent /></AuthRoute>} />
               <Route path='/registrarEstudiante' element={<AuthRoute><AddStudent /></AuthRoute>} />
               <Route path='/registrarCurso' element={<AuthRoute><AddClassroom /></AuthRoute>} />
+              <Route path='/registrarDocenteMateria' element={<AuthRoute><AddDocentSubject/></AuthRoute>} />
               <Route path='/listaDocentes' element={<AuthRoute><ListDocents /></AuthRoute>} />
               <Route path='/horariosDocentes' element={<AuthRoute><AddHours /></AuthRoute>} />
               <Route path='/listaEstudiantes' element={<AuthRoute><ListStudents /></AuthRoute>} />
